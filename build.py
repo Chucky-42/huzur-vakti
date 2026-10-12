@@ -552,6 +552,10 @@ def main():
     for f in (ROOT / 'static').iterdir():
         shutil.copy2(f, OUT / 'static' / f.name)
     (OUT / '.nojekyll').write_text('', encoding='utf-8')
+    # Files that must sit at the site root as they are, e.g. Search Console's
+    # ownership file (deleting it un-verifies the property).
+    for f in (ROOT / 'root').iterdir():
+        shutil.copy2(f, OUT / f.name)
 
     urls = [BASE]
     (OUT / 'index.html').write_text(root_page(by_lang, strings, langs), encoding='utf-8')
