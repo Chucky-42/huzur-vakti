@@ -81,3 +81,5 @@ dl.facts dd { margin: 0; }
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; padding: 18px 0 28px; }
 footer a { color: var(--muted); }
 footer .wrap { display: flex; gap: 16px; flex-wrap: wrap; }
+.ramadan-link { margin: 14px 0 0; font-weight: 600; }
+table.ramadan td:nth-child(2) { white-space: nowrap; }

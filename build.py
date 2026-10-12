@@ -287,6 +287,66 @@ T = {
 }
 
 
+# Ramadan pages: the fasting timetable of the Ramadan inside the data, per city.
+R = {
+    'tr': {'title': '{city} Ramazan İmsakiyesi {year} – Sahur ve İftar Saatleri', 'h1': '{city} Ramazan İmsakiyesi {year}',
+           'desc': '{city} için {year} Ramazan imsakiyesi: her gün imsak (sahur sonu) ve iftar saatleri. Vakitler Huzur Vakti uygulamasının hesabıdır; uygulama her vakitte haber verir.',
+           'intro': 'Ümmülkura takvimine göre Ramazan {start} günü başlar, Ramazan Bayramı {eid} günüdür. Bazı ülkelerde başlangıç bir gün sonra olabilir; o zaman oruç bu tablonun bitiminden bir gün sonra sona erer.',
+           'cols': ['Gün', 'Tarih', 'İmsak', 'İftar', 'Süre'], 'link': 'Ramazan {year} imsakiyesi', 'list': 'Ramazan {year} imsakiyeleri',
+           'cta_title': 'Sahur ve iftar vaktinde haber alın'},
+    'en': {'title': 'Ramadan {year} Timetable for {city} – Suhoor and Iftar Times', 'h1': 'Ramadan {year} in {city}',
+           'desc': 'Ramadan {year} timetable for {city}: the end of suhoor (imsak) and iftar time for every day, calculated by the Huzur Vakti app, which alerts you at each time.',
+           'intro': 'By the Umm al-Qura calendar, Ramadan begins on {start} and Eid al-Fitr is on {eid}. In some countries it may begin a day later; the fast then runs one day past the end of this table.',
+           'cols': ['Day', 'Date', 'Suhoor ends', 'Iftar', 'Fast'], 'link': 'Ramadan {year} timetable', 'list': 'Ramadan {year} timetables',
+           'cta_title': 'Get an alert at suhoor and iftar'},
+    'ar': {'title': 'إمساكية رمضان {year} في {city} – مواعيد السحور والإفطار', 'h1': 'إمساكية رمضان {year} في {city}',
+           'desc': 'إمساكية رمضان {year} في {city}: موعد الإمساك (نهاية السحور) وموعد الإفطار لكل يوم، من حساب تطبيق Huzur Vakti الذي ينبّهك عند كل موعد.',
+           'intro': 'بحسب تقويم أم القرى يبدأ رمضان يوم {start}، ويكون عيد الفطر يوم {eid}. وقد يبدأ رمضان في بعض البلدان بعد يوم، فيمتد الصيام يومًا بعد آخر هذا الجدول.',
+           'cols': ['اليوم', 'التاريخ', 'الإمساك', 'الإفطار', 'مدة الصيام'], 'link': 'إمساكية رمضان {year}', 'list': 'إمساكيات رمضان {year}',
+           'cta_title': 'تنبيه عند السحور والإفطار'},
+    'fa': {'title': 'اوقات سحر و افطار رمضان {year} در {city}', 'h1': 'اوقات سحر و افطار رمضان {year} – {city}',
+           'desc': 'اوقات امساک (پایان سحر) و افطار هر روز رمضان {year} در {city}، از محاسبهٔ اپلیکیشن Huzur Vakti که سر هر وقت به شما یادآوری می‌کند.',
+           'intro': 'بر اساس تقویم امّ‌القری، رمضان {start} آغاز می‌شود و عید فطر {eid} است. در برخی کشورها ممکن است یک روز دیرتر آغاز شود؛ در آن صورت روزه یک روز پس از پایان این جدول ادامه دارد.',
+           'cols': ['روز', 'تاریخ', 'امساک', 'افطار', 'مدت روزه'], 'link': 'اوقات سحر و افطار رمضان {year}', 'list': 'اوقات رمضان {year}',
+           'cta_title': 'یادآور سحر و افطار'},
+    'ur': {'title': '{city} – رمضان {year} سحری و افطار کے اوقات', 'h1': '{city} – رمضان {year} کے اوقاتِ سحر و افطار',
+           'desc': '{city} میں رمضان {year} کے ہر دن کا وقتِ امساک (سحری کا اختتام) اور افطار، Huzur Vakti ایپ کے حساب سے، جو ہر وقت پر اطلاع بھی دیتی ہے۔',
+           'intro': 'ام القریٰ کیلنڈر کے مطابق رمضان {start} کو شروع ہوگا اور عید الفطر {eid} کو ہے۔ بعض ملکوں میں آغاز ایک دن بعد ہو سکتا ہے؛ اس صورت میں روزے اس جدول کے آخر سے ایک دن آگے چلیں گے۔',
+           'cols': ['روزہ', 'تاریخ', 'امساک', 'افطار', 'دورانیہ'], 'link': 'رمضان {year} کے اوقاتِ سحر و افطار', 'list': 'رمضان {year} کے اوقات',
+           'cta_title': 'سحری اور افطار پر اطلاع'},
+    'bn': {'title': '{city} রমজান {year} সেহরি ও ইফতারের সময়সূচি', 'h1': '{city} – রমজান {year} সেহরি ও ইফতার',
+           'desc': '{city}-এ রমজান {year}-এর প্রতিদিনের সেহরির শেষ সময় (ইমসাক) ও ইফতারের সময়, Huzur Vakti অ্যাপের হিসাবে; অ্যাপটি প্রতিটি সময়ে নোটিফিকেশনও দেয়।',
+           'intro': 'উম্মুল কুরা ক্যালেন্ডার অনুযায়ী রমজান শুরু {start}, ঈদুল ফিতর {eid}। কিছু দেশে একদিন পরে শুরু হতে পারে; তখন রোজা এই সারণির শেষের পরে আরও একদিন চলবে।',
+           'cols': ['রোজা', 'তারিখ', 'সেহরি শেষ', 'ইফতার', 'সময়কাল'], 'link': 'রমজান {year} সময়সূচি', 'list': 'রমজান {year} সময়সূচি',
+           'cta_title': 'সেহরি ও ইফতারে নোটিফিকেশন'},
+    'fr': {'title': "Calendrier du Ramadan {year} à {city} – heures du sahour et de l'iftar", 'h1': 'Ramadan {year} à {city}',
+           'desc': "Calendrier du Ramadan {year} à {city} : chaque jour, la fin du sahour (imsak) et l'heure de l'iftar, calculées par l'application Huzur Vakti, qui vous prévient à chaque heure.",
+           'intro': "Selon le calendrier Umm al-Qura, le Ramadan commence le {start} et l'Aïd al-Fitr tombe le {eid}. Dans certains pays, il peut commencer un jour plus tard ; le jeûne dure alors un jour de plus que ce tableau.",
+           'cols': ['Jour', 'Date', 'Fin du sahour', 'Iftar', 'Durée'], 'link': 'Calendrier du Ramadan {year}', 'list': 'Calendriers du Ramadan {year}',
+           'cta_title': "Soyez prévenu au sahour et à l'iftar"},
+    'id': {'title': 'Jadwal Imsakiyah Ramadhan {year} {city} – Waktu Sahur dan Berbuka', 'h1': 'Imsakiyah Ramadhan {year} {city}',
+           'desc': 'Jadwal imsakiyah Ramadhan {year} untuk {city}: waktu imsak dan berbuka setiap hari, dari perhitungan aplikasi Huzur Vakti yang juga mengingatkan Anda di setiap waktu.',
+           'intro': 'Menurut kalender Umm al-Qura, Ramadhan dimulai pada {start} dan Idulfitri jatuh pada {eid}. Di beberapa negara awal puasa bisa sehari lebih lambat; puasa lalu berlangsung sehari setelah akhir tabel ini.',
+           'cols': ['Hari', 'Tanggal', 'Imsak', 'Berbuka', 'Lama puasa'], 'link': 'Imsakiyah Ramadhan {year}', 'list': 'Imsakiyah Ramadhan {year}',
+           'cta_title': 'Pengingat sahur dan berbuka'},
+    'ms': {'title': 'Jadual Imsak dan Berbuka Puasa Ramadan {year} – {city}', 'h1': 'Waktu Imsak dan Berbuka Ramadan {year} – {city}',
+           'desc': 'Jadual waktu imsak dan berbuka puasa Ramadan {year} bagi {city} untuk setiap hari, dikira oleh aplikasi Huzur Vakti yang turut memberi peringatan pada setiap waktu.',
+           'intro': 'Mengikut kalendar Umm al-Qura, Ramadan bermula pada {start} dan Aidilfitri jatuh pada {eid}. Di sesetengah negara ia mungkin bermula sehari kemudian; puasa kemudian berterusan sehari selepas akhir jadual ini.',
+           'cols': ['Hari', 'Tarikh', 'Imsak', 'Berbuka', 'Tempoh'], 'link': 'Jadual Ramadan {year}', 'list': 'Jadual Ramadan {year}',
+           'cta_title': 'Peringatan sahur dan berbuka'},
+    'ru': {'title': 'Рамадан {year}: время сухура и ифтара — {city}', 'h1': 'Рамадан {year} — {city}',
+           'desc': 'Расписание Рамадана {year}, город {city}: окончание сухура (имсак) и время ифтара на каждый день — по расчёту приложения Huzur Vakti, которое напоминает о каждом времени.',
+           'intro': 'По календарю Умм аль-Кура Рамадан начинается {start}, а Ураза-байрам приходится на {eid}. В некоторых странах начало может быть на день позже; тогда пост продлится на день дольше этой таблицы.',
+           'cols': ['День', 'Дата', 'Имсак', 'Ифтар', 'Длительность'], 'link': 'Расписание Рамадана {year}', 'list': 'Расписание Рамадана {year}',
+           'cta_title': 'Напоминание о сухуре и ифтаре'},
+    'sw': {'title': 'Ratiba ya Ramadhani {year} – {city}: daku na futari', 'h1': 'Ramadhani {year} – {city}',
+           'desc': 'Ratiba ya Ramadhani {year} kwa {city}: muda wa kuacha daku (imsaki) na wa futari kila siku, kwa hesabu ya programu ya Huzur Vakti inayokukumbusha kila wakati.',
+           'intro': 'Kwa kalenda ya Umm al-Qura, Ramadhani inaanza {start} na Idi el-Fitri ni {eid}. Katika baadhi ya nchi inaweza kuanza siku moja baadaye; hapo mfungo huendelea siku moja zaidi ya mwisho wa jedwali hili.',
+           'cols': ['Siku', 'Tarehe', 'Imsaki', 'Futari', 'Muda'], 'link': 'Ratiba ya Ramadhani {year}', 'list': 'Ratiba za Ramadhani {year}',
+           'cta_title': 'Kikumbusho cha daku na futari'},
+}
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -350,11 +410,11 @@ def top(lang, rel):
             f'</div></header>')
 
 
-def cta(lang, strings, rel, campaign):
+def cta(lang, strings, rel, campaign, title=None):
     t = T[lang]
     text = t['cta_text'] or strings[lang]['short']
     return (f'<section class="cta"><img src="{rel}static/icon-192.png" alt="" width="64" height="64">'
-            f'<div class="text"><h2>{esc(t["cta_title"])}</h2><p>{esc(text)}</p>'
+            f'<div class="text"><h2>{esc(title or t["cta_title"])}</h2><p>{esc(text)}</p>'
             f'<p class="free">{esc(t["free"])}</p></div>'
             f'<div class="stores"><a class="store" href="{esc(play_link(lang, campaign))}" rel="noopener">{esc(t["play"])}</a>'
             f'<a class="store alt" href="{APPSTORE}" rel="noopener">{esc(t["appstore"])}</a></div></section>')
@@ -449,6 +509,7 @@ def city_page(c, by_lang, strings, start, today):
         f'<p class="dateline">{esc(dateline)}</p>',
         f'<ul class="today">{cards}</ul>',
         f'<p class="countdown" data-label="{esc(t["next"])}"></p>',
+        ramadan_link(c),
         cta(lang, strings, rel, c['slug']),
         f'<h2 id="month-title">{esc(month_title)}</h2>',
         f'<div class="tablewrap"><table class="month" data-month="{printed.year}-{printed.month:02d}">'
@@ -465,6 +526,100 @@ def city_page(c, by_lang, strings, start, today):
         '</body></html>',
     ]
     return '\n'.join(body)
+
+
+def date_text(d, lang):
+    t = T[lang]
+    return digits(f'{d.day} {t.get("months_of", t["months"])[d.month - 1]} {d.year}', lang)
+
+
+def shift(clock, minutes):
+    h, m = map(int, clock.split(':'))
+    total = (h * 60 + m + minutes) % 1440
+    return f'{total // 60:02d}:{total % 60:02d}'
+
+
+def span(a, b):
+    ah, am = map(int, a.split(':'))
+    bh, bm = map(int, b.split(':'))
+    minutes = (bh * 60 + bm) - (ah * 60 + am)
+    return f'{minutes // 60}:{minutes % 60:02d}'
+
+
+def ramadan_slug(ramadan):
+    return f'ramazan-{date.fromisoformat(ramadan["start"]).year}'
+
+
+def ramadan_page(c, by_lang, strings, start, ramadan):
+    lang = c['lang']
+    t, r = T[lang], R[lang]
+    name = c['names'][lang]
+    first = date.fromisoformat(ramadan['start'])
+    year = digits(first.year, lang)
+    rel = '../../../'
+    url = f'{BASE}{lang}/{c["slug"]}/{ramadan_slug(ramadan)}/'
+    title = r['title'].format(city=name, year=year)
+    desc = r['desc'].format(city=name, year=year)
+    eid = date.fromordinal(first.toordinal() + ramadan['days'])
+    rows = []
+    for n in range(ramadan['days']):
+        day = date.fromordinal(first.toordinal() + n)
+        times = c['days'][(day - start).days]
+        imsak, iftar = shift(times[0], c.get('imsakOffset', 0)), times[4]
+        cells = [digits(n + 1, lang), date_text(day, lang), digits(imsak, lang), digits(iftar, lang),
+                 digits(span(imsak, iftar), lang)]
+        rows.append(f'<tr data-date="{day.isoformat()}">' + ''.join(f'<td>{esc(v)}</td>' for v in cells) + '</tr>')
+    crumbs = {
+        '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {'@type': 'ListItem', 'position': 1, 'name': t['index_h1'], 'item': f'{BASE}{lang}/'},
+            {'@type': 'ListItem', 'position': 2, 'name': name, 'item': f'{BASE}{lang}/{c["slug"]}/'},
+            {'@type': 'ListItem', 'position': 3, 'name': r['link'].format(year=year), 'item': url},
+        ],
+    }
+    head_cells = ''.join(f'<th>{esc(x)}</th>' for x in r['cols'])
+    others = ' · '.join(f'<a href="{rel}{lang}/{o["slug"]}/{ramadan_slug(ramadan)}/">{esc(o["names"][lang])}</a>'
+                        for o in by_lang[lang] if o is not c)
+    # During Ramadan the visitor's day is marked, in the city's own time zone.
+    today_js = ('<script>(function(){try{var d=new Intl.DateTimeFormat("en-CA",{timeZone:' + json.dumps(c['tz'])
+                + ',year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());'
+                'var r=document.querySelector(\'tr[data-date="\'+d+\'"]\');if(r)r.className="now";}catch(e){}})();</script>')
+    return '\n'.join([
+        head(lang, title, desc, url, rel, jsonld=crumbs),
+        f'<body>{top(lang, rel)}<main><div class="wrap">',
+        f'<p class="crumbs"><a href="{rel}{lang}/">{esc(t["index_h1"])}</a> › <a href="{rel}{lang}/{c["slug"]}/">{esc(name)}</a></p>',
+        f'<h1>{esc(r["h1"].format(city=name, year=year))}</h1>',
+        f'<p class="intro">{esc(r["intro"].format(start=date_text(first, lang), eid=date_text(eid, lang)))}</p>',
+        f'<div class="tablewrap"><table class="month ramadan"><thead><tr>{head_cells}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>',
+        f'<p class="note">{esc(t["note"].format(method=c["methodTitles"][lang]))}</p>',
+        cta(lang, strings, rel, f'ramazan-{c["slug"]}', r['cta_title']),
+        f'<p><a href="{rel}{lang}/{c["slug"]}/">{esc(t["h1"].format(city=name))}</a></p>',
+        f'<h2>{esc(r["list"].format(year=year))}</h2><p>{others}</p>' if others else '',
+        '</div></main>', foot(lang), today_js, '</body></html>',
+    ])
+
+
+RAMADANS = []
+
+
+def ramadan_link(c):
+    """Links to the city's Ramadan timetables."""
+    links = []
+    for ramadan in RAMADANS:
+        lang = c['lang']
+        year = digits(date.fromisoformat(ramadan['start']).year, lang)
+        links.append(f'<p class="ramadan-link">🌙 <a href="{ramadan_slug(ramadan)}/">{esc(R[lang]["link"].format(year=year))}</a></p>')
+    return ''.join(links)
+
+
+def ramadan_list(lang, by_lang, rel):
+    parts = []
+    for ramadan in RAMADANS:
+        year = digits(date.fromisoformat(ramadan['start']).year, lang)
+        items = ' · '.join(f'<a href="{rel}{lang}/{c["slug"]}/{ramadan_slug(ramadan)}/">{esc(c["names"][lang])}</a>'
+                           for c in by_lang[lang])
+        parts.append(f'<h2>🌙 {esc(R[lang]["list"].format(year=year))}</h2><p>{items}</p>')
+    return ''.join(parts)
 
 
 APP_JSONLD = {
@@ -493,6 +648,7 @@ def language_page(lang, by_lang, strings, langs):
         f'<p>{esc(strings[lang]["about"])}</p>',
         cta(lang, strings, rel, f'index-{lang}'),
         f'<h2>{esc(t["cities"])}</h2>{city_list(by_lang[lang], lang, rel)}',
+        ramadan_list(lang, by_lang, rel),
         f'<h2>{esc(t["languages"])}</h2><ul class="langs">{others}</ul>',
         '</div></main>', foot(lang), '</body></html>',
     ])
@@ -535,6 +691,9 @@ def main():
     today = datetime.now(timezone.utc).date()
     cities = data['cities']
     langs = [l for l in LANGS if any(c['lang'] == l for c in cities)]
+    # Every Ramadan in the data, past ones too: an indexed page that disappears
+    # after Eid has to be found again from nothing the next year.
+    RAMADANS[:] = data.get('ramadans', [])
 
     by_lang = {l: [] for l in langs}
     seen = set()
@@ -568,6 +727,11 @@ def main():
             folder.mkdir()
             (folder / 'index.html').write_text(city_page(c, by_lang, strings, start, today), encoding='utf-8')
             urls.append(f'{BASE}{lang}/{c["slug"]}/')
+            for ramadan in RAMADANS:
+                rfolder = folder / ramadan_slug(ramadan)
+                rfolder.mkdir()
+                (rfolder / 'index.html').write_text(ramadan_page(c, by_lang, strings, start, ramadan), encoding='utf-8')
+                urls.append(f'{BASE}{lang}/{c["slug"]}/{ramadan_slug(ramadan)}/')
     (OUT / '404.html').write_text(not_found(), encoding='utf-8')
 
     stamp = today.isoformat()
