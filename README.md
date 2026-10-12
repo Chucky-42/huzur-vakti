@@ -6,7 +6,7 @@ Her şehir için o şehrin namaz vakitleri (bugün + ay tablosu), kıble açıs�
 
 - **Vakitler burada hesaplanmaz.** `data/times.json` uygulama deposundaki `tool/export_web_times.dart` ile, uygulamanın kendi hesap motoruyla üretilir; site ile uygulama aynı vakti gösterir.
 - `python build.py` → `docs/` (GitHub Pages `main` dalının `docs/` klasöründen yayınlar).
-- Bilgisayardaki **HuzurSiteAylik** görevi her ayın 1'inde `yenile.ps1` ile yeniden üretip gönderir (ay tablosu güncel kalsın diye). Sayfadaki betik "bugün"ü ziyaretçinin anına göre ilerletir. (GitHub Actions ile yapmak için `gh` belirtecine `workflow` izni gerekir.)
+- Bilgisayardaki **HuzurSiteAylik** görevi her ayın 1'inde `yenile.py` ile yeniden üretip gönderir (ay tablosu güncel kalsın diye). Sayfadaki betik "bugün"ü ziyaretçinin anına göre ilerletir. (GitHub Actions ile yapmak için `gh` belirtecine `workflow` izni gerekir.)
 
 ## Veriyi yenilemek (2027 bitmeden)
 

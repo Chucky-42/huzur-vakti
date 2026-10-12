@@ -9,7 +9,7 @@ page and the app can never disagree. This script only lays them out.
     python build.py
 
 Rebuilt and pushed on the 1st of every month by the HuzurSiteAylik scheduled
-task on the laptop (yenile.ps1) so the printed month table stays current; the
+task on the laptop (yenile.py) so the printed month table stays current; the
 page's script moves "today" forward in between. data/times.json runs to its "to" date and must be re-exported before
 then (it is good until the end of 2027).
 """
