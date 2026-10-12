@@ -8,7 +8,9 @@ tool/export_web_times.dart in the app repo (see README.md).
 Run with pythonw so the task opens no window.
 """
 import json
+import os
 import subprocess
+import traceback
 import sys
 from datetime import date, datetime
 from pathlib import Path
@@ -23,8 +25,11 @@ def log(msg):
 
 
 def run(*args):
-    return subprocess.run(args, cwd=ROOT, capture_output=True, text=True, encoding='utf-8',
-                          creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+    # The task has no PYTHONIOENCODING, so a child Python would print Turkish in
+    # cp1254 and decoding it as UTF-8 would kill this script before it logs.
+    env = {**os.environ, 'PYTHONIOENCODING': 'utf-8'}
+    return subprocess.run(args, cwd=ROOT, capture_output=True, text=True, encoding='utf-8', errors='replace',
+                          env=env, creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
 
 
 def main():
@@ -58,4 +63,8 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except Exception:
+        log('HATA: ' + ' | '.join(traceback.format_exc().splitlines()))
+        sys.exit(1)
