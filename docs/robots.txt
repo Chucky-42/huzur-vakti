@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chucky-42.github.io/huzur-vakti/sitemap.xml

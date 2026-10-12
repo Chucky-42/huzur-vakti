@@ -1,0 +1,145 @@
+{
+ "tr": {
+  "prayers": [
+   "İmsak",
+   "Güneş",
+   "Öğle",
+   "İkindi",
+   "Akşam",
+   "Yatsı"
+  ],
+  "short": "",
+  "intro": "Huzur Vakti; namaz vakitleri, kıble, hicrî takvim ve Kur'an-ı Kerim'i tek bir yerde toplayan, reklamsız ve hesap gerektirmeyen bir uygulamadır.",
+  "about": "Vakitler telefonunuzda, astronomik hesapla bulunur — ülkenize göre o ülkenin kendi dinî merciinin yöntemiyle (Türkiye için Diyanet, Malezya için JAKIM, Pakistan için Karaçi ve benzeri). 90 ülke ve 600 şehir listelidir. İnternet gerekmez; uygulama çevrimdışıyken de tam olarak çalışır."
+ },
+ "en": {
+  "prayers": [
+   "Fajr",
+   "Sunrise",
+   "Dhuhr",
+   "Asr",
+   "Maghrib",
+   "Isha"
+  ],
+  "short": "Prayer times & azan alerts, qibla compass, Ramadan times, Quran. No ads.",
+  "intro": "Huzur Vakti is a Muslim prayer times app with azan (adhan) alerts, a qibla compass, Ramadan suhoor and iftar times, the Hijri calendar, the Qur'an, a tasbih counter and a missed prayer tracker, all in one place. No ads, no account, no sign-up.",
+  "about": "Times are computed on your own phone, with the method used by your country's own religious authority (Diyanet for Türkiye, JAKIM for Malaysia, Karachi for Pakistan, and so on). 90 countries and 600 cities are listed. No internet connection is required: the app works completely offline."
+ },
+ "ar": {
+  "prayers": [
+   "الفجر",
+   "الشروق",
+   "الظهر",
+   "العصر",
+   "المغرب",
+   "العشاء"
+  ],
+  "short": "مواقيت الصلاة والأذان، بوصلة القبلة، إمساكية رمضان والقرآن. بلا إعلانات.",
+  "intro": "تطبيق Huzur Vakti يجمع مواقيت الصلاة مع تنبيه الأذان، واتجاه القبلة بالبوصلة، وإمساكية رمضان بأوقات السحور والإفطار، والتقويم الهجري، والقرآن الكريم، والمسبحة، ومتابعة قضاء الصلوات في مكان واحد، بلا إعلانات وبلا حساب.",
+  "about": "تُحسب الأوقات داخل هاتفك، بطريقة الجهة الدينية الرسمية في بلدك (رئاسة الشؤون الدينية للتُّرك، JAKIM لماليزيا، جامعة كراتشي لباكستان، وغيرها). القائمة تضم 90 دولة و600 مدينة. لا حاجة إلى اتصال بالإنترنت؛ التطبيق يعمل كاملًا دون اتصال."
+ },
+ "fa": {
+  "prayers": [
+   "فجر",
+   "طلوع آفتاب",
+   "ظهر",
+   "عصر",
+   "مغرب",
+   "عشا"
+  ],
+  "short": "اوقات شرعی و اذان، قبله‌نما، سحر و افطار، تقویم هجری و قرآن. بدون تبلیغ.",
+  "intro": "Huzur Vakti اوقات شرعی نماز با پخش اذان، قبله‌نما، اوقات سحر و افطار ماه رمضان، تقویم هجری، قرآن کریم، تسبیح‌شمار و پیگیری نمازهای قضا را در یک برنامه گرد آورده است؛ بدون تبلیغ و بدون حساب کاربری.",
+  "about": "اوقات در گوشی خودتان محاسبه می‌شود، با روش مرجع دینی کشور خودتان (دیانت برای ترکیه، JAKIM برای مالزی، کراچی برای پاکستان و مانند آن). ۹۰ کشور و ۶۰۰ شهر در فهرست است. به اینترنت نیازی نیست؛ برنامه به‌طور کامل بدون اتصال کار می‌کند."
+ },
+ "ur": {
+  "prayers": [
+   "فجر",
+   "طلوعِ آفتاب",
+   "ظہر",
+   "عصر",
+   "مغرب",
+   "عشاء"
+  ],
+  "short": "نماز کے اوقات اور اذان، قبلہ نما، سحری و افطار اور قرآن۔ بغیر اشتہار۔",
+  "intro": "Huzur Vakti نماز کے اوقات اور اذان کی اطلاع، قبلہ نما، رمضان میں سحری و افطار کے اوقات، ہجری کیلنڈر، قرآن کریم، تسبیح کاؤنٹر اور قضا نمازوں کا حساب ایک ہی جگہ جمع کرتا ہے — نہ اشتہار، نہ اکاؤنٹ۔",
+  "about": "اوقات آپ کے فون میں حساب کیے جاتے ہیں، اور وہ بھی آپ کے ملک کے دینی ادارے کے طریقے سے (ترکیہ کے لیے دیانت، ملائشیا کے لیے JAKIM، پاکستان کے لیے کراچی وغیرہ)۔ فہرست میں 90 ملک اور 600 شہر ہیں۔ انٹرنیٹ کی ضرورت نہیں؛ ایپ مکمل طور پر آف لائن چلتی ہے۔"
+ },
+ "bn": {
+  "prayers": [
+   "ফজর",
+   "সূর্যোদয়",
+   "যোহর",
+   "আসর",
+   "মাগরিব",
+   "এশা"
+  ],
+  "short": "নামাজের সময় ও আজান, কিবলা কম্পাস, সেহরি-ইফতার ও কুরআন। বিজ্ঞাপনমুক্ত।",
+  "intro": "Huzur Vakti নামাজের সময় ও আজানের নোটিফিকেশন, কিবলা কম্পাস, রমজানের সেহরি ও ইফতারের সময়, হিজরি ক্যালেন্ডার, কুরআন শরীফ, তসবিহ কাউন্টার ও কাজা নামাজের হিসাব এক জায়গায় নিয়ে আসে — কোনো বিজ্ঞাপন নেই, কোনো অ্যাকাউন্ট লাগে না।",
+  "about": "সময় হিসাব হয় আপনার ফোনেই, আপনার নিজের দেশের ধর্মীয় প্রতিষ্ঠানের পদ্ধতিতে (তুরস্কের জন্য দিয়ানেত, মালয়েশিয়ার জন্য JAKIM, পাকিস্তানের জন্য করাচি, ইত্যাদি)। তালিকায় ৯০টি দেশ ও ৬০০টি শহর আছে। ইন্টারনেট লাগে না; অ্যাপটি সম্পূর্ণ অফলাইনে চলে।"
+ },
+ "fr": {
+  "prayers": [
+   "Fajr",
+   "Chourouk",
+   "Dhouhr",
+   "Asr",
+   "Maghreb",
+   "Icha"
+  ],
+  "short": "Horaires de prière et adhan, boussole qibla, ramadan et Coran. Sans publicité.",
+  "intro": "Huzur Vakti réunit les horaires de prière avec l'adhan, une boussole qibla, les horaires du ramadan (imsak et iftar), le calendrier hégirien, le Coran, un compteur de tasbih et le suivi des prières à rattraper dans une seule application, sans publicité et sans compte.",
+  "about": "Les heures sont calculées sur votre téléphone, selon la méthode de l'autorité religieuse de votre propre pays (Diyanet pour la Turquie, JAKIM pour la Malaisie, Karachi pour le Pakistan, etc.). 90 pays et 600 villes sont répertoriés. Aucune connexion n'est nécessaire : l'application fonctionne entièrement hors ligne."
+ },
+ "id": {
+  "prayers": [
+   "Subuh",
+   "Terbit",
+   "Zuhur",
+   "Asar",
+   "Magrib",
+   "Isya"
+  ],
+  "short": "Jadwal sholat & adzan, arah kiblat, imsakiyah Ramadhan, Al-Qur'an. Tanpa iklan.",
+  "intro": "Huzur Vakti menyatukan jadwal sholat dengan notifikasi adzan, kompas arah kiblat, imsakiyah Ramadhan (waktu sahur dan berbuka), kalender Hijriah, Al-Qur'an, penghitung tasbih, dan pencatat salat qada dalam satu aplikasi — tanpa iklan dan tanpa akun.",
+  "about": "Waktu dihitung di ponsel Anda sendiri, dengan metode lembaga keagamaan negara Anda (Diyanet untuk Türkiye, JAKIM untuk Malaysia, Karachi untuk Pakistan, dan sejenisnya). Tersedia 90 negara dan 600 kota. Tidak perlu internet: aplikasi berjalan sepenuhnya secara offline."
+ },
+ "ms": {
+  "prayers": [
+   "Subuh",
+   "Syuruk",
+   "Zohor",
+   "Asar",
+   "Maghrib",
+   "Isyak"
+  ],
+  "short": "Waktu solat & azan, kompas kiblat, waktu imsak, al-Quran. Tanpa iklan.",
+  "intro": "Huzur Vakti menghimpunkan waktu solat dengan azan, kompas arah kiblat, waktu imsak dan berbuka Ramadan, kalendar Hijrah, al-Quran, pembilang tasbih dan rekod solat qada dalam satu aplikasi — tanpa iklan dan tanpa akaun.",
+  "about": "Waktu dihitung di dalam telefon anda sendiri, mengikut kaedah pihak berkuasa agama negara anda (JAKIM untuk Malaysia, Diyanet untuk Türkiye, Karachi untuk Pakistan dan seumpamanya). Sebanyak 90 negara dan 600 bandar disenaraikan. Internet tidak diperlukan: aplikasi berfungsi sepenuhnya di luar talian."
+ },
+ "ru": {
+  "prayers": [
+   "Фаджр",
+   "Восход",
+   "Зухр",
+   "Аср",
+   "Магриб",
+   "Иша"
+  ],
+  "short": "Время намаза и азан, компас киблы, Рамадан и Коран. Без рекламы, офлайн.",
+  "intro": "Huzur Vakti собирает время намаза с азаном, компас киблы, время сухура и ифтара в Рамадан, хиджрийский календарь, Коран, счётчик тасбиха и учёт пропущенных намазов в одном приложении — без рекламы и без регистрации.",
+  "about": "Время вычисляется на вашем телефоне, по методу духовного управления вашей страны (Diyanet для Турции, JAKIM для Малайзии, Карачи для Пакистана и так далее). В списке 90 стран и 600 города. Интернет не нужен: приложение полностью работает офлайн."
+ },
+ "sw": {
+  "prayers": [
+   "Alfajiri",
+   "Macheo",
+   "Adhuhuri",
+   "Alasiri",
+   "Magharibi",
+   "Isha"
+  ],
+  "short": "Nyakati za sala na adhana, dira ya kibla, Ramadhani na Qur'ani. Bila matangazo.",
+  "intro": "Huzur Vakti inakutanisha nyakati za sala pamoja na adhana, dira ya kibla, nyakati za daku na futari za Ramadhani, kalenda ya Hijria, Qur'ani Tukufu, kihesabu cha tasbihi na ufuatiliaji wa sala zilizopitwa katika programu moja — bila matangazo na bila akaunti.",
+  "about": "Nyakati zinahesabiwa ndani ya simu yako mwenyewe, kwa njia ya chombo cha dini cha nchi yako (Diyanet kwa Uturuki, JAKIM kwa Malaysia, Karachi kwa Pakistan, na kadhalika). Nchi 90 na miji 600 zimo katika orodha. Hauhitaji intaneti: programu inafanya kazi kikamilifu bila mtandao."
+ }
+}

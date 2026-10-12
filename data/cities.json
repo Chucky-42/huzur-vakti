@@ -1,0 +1,518 @@
+[
+ {
+  "id": "TR:İstanbul",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Ankara",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:İzmir",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Bursa",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Konya",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Antalya",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Adana",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Gaziantep",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Şanlıurfa",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Kayseri",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Diyarbakır",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Samsun",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Trabzon",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Erzurum",
+  "lang": "tr"
+ },
+ {
+  "id": "TR:Mersin",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Berlin",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Köln",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Hamburg",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Münih",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Frankfurt",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Stuttgart",
+  "lang": "tr"
+ },
+ {
+  "id": "DE:Düsseldorf",
+  "lang": "tr"
+ },
+ {
+  "id": "NL:Amsterdam",
+  "lang": "tr"
+ },
+ {
+  "id": "NL:Rotterdam",
+  "lang": "tr"
+ },
+ {
+  "id": "AT:Viyana",
+  "lang": "tr"
+ },
+ {
+  "id": "SA:Mekke",
+  "lang": "ar"
+ },
+ {
+  "id": "SA:Medine",
+  "lang": "ar"
+ },
+ {
+  "id": "SA:Riyad",
+  "lang": "ar"
+ },
+ {
+  "id": "SA:Cidde",
+  "lang": "ar"
+ },
+ {
+  "id": "SA:Dammam",
+  "lang": "ar"
+ },
+ {
+  "id": "KW:Kuveyt",
+  "lang": "ar"
+ },
+ {
+  "id": "QA:Doha",
+  "lang": "ar"
+ },
+ {
+  "id": "AE:Dubai",
+  "lang": "ar"
+ },
+ {
+  "id": "AE:Abu Dabi",
+  "lang": "ar"
+ },
+ {
+  "id": "OM:Maskat",
+  "lang": "ar"
+ },
+ {
+  "id": "BH:Manama",
+  "lang": "ar"
+ },
+ {
+  "id": "IQ:Bağdat",
+  "lang": "ar"
+ },
+ {
+  "id": "IQ:Basra",
+  "lang": "ar"
+ },
+ {
+  "id": "IQ:Musul",
+  "lang": "ar"
+ },
+ {
+  "id": "EG:Kahire",
+  "lang": "ar"
+ },
+ {
+  "id": "EG:İskenderiye",
+  "lang": "ar"
+ },
+ {
+  "id": "JO:Amman",
+  "lang": "ar"
+ },
+ {
+  "id": "LB:Beyrut",
+  "lang": "ar"
+ },
+ {
+  "id": "SY:Şam",
+  "lang": "ar"
+ },
+ {
+  "id": "MA:Kazablanka",
+  "lang": "ar"
+ },
+ {
+  "id": "MA:Rabat",
+  "lang": "ar"
+ },
+ {
+  "id": "DZ:Cezayir",
+  "lang": "ar"
+ },
+ {
+  "id": "TN:Tunus",
+  "lang": "ar"
+ },
+ {
+  "id": "LY:Trablus",
+  "lang": "ar"
+ },
+ {
+  "id": "SD:Hartum",
+  "lang": "ar"
+ },
+ {
+  "id": "YE:Sana",
+  "lang": "ar"
+ },
+ {
+  "id": "ID:Cakarta",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Surabaya",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Bandung",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Medan",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Semarang",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Makassar",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Palembang",
+  "lang": "id"
+ },
+ {
+  "id": "ID:Yogyakarta",
+  "lang": "id"
+ },
+ {
+  "id": "MY:Kuala Lumpur",
+  "lang": "ms"
+ },
+ {
+  "id": "MY:Johor Bahru",
+  "lang": "ms"
+ },
+ {
+  "id": "MY:Shah Alam",
+  "lang": "ms"
+ },
+ {
+  "id": "MY:George Town",
+  "lang": "ms"
+ },
+ {
+  "id": "SG:Singapur",
+  "lang": "ms"
+ },
+ {
+  "id": "BN:Bandar Seri Begavan",
+  "lang": "ms"
+ },
+ {
+  "id": "PK:Karaçi",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:Lahor",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:İslamabad",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:Faysalabad",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:Peşaver",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:Multan",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:Ravalpindi",
+  "lang": "ur"
+ },
+ {
+  "id": "PK:Ketta",
+  "lang": "ur"
+ },
+ {
+  "id": "BD:Dakka",
+  "lang": "bn"
+ },
+ {
+  "id": "BD:Çitagong",
+  "lang": "bn"
+ },
+ {
+  "id": "BD:Silhet",
+  "lang": "bn"
+ },
+ {
+  "id": "BD:Kulna",
+  "lang": "bn"
+ },
+ {
+  "id": "IR:Tahran",
+  "lang": "fa"
+ },
+ {
+  "id": "IR:Meşhed",
+  "lang": "fa"
+ },
+ {
+  "id": "IR:İsfahan",
+  "lang": "fa"
+ },
+ {
+  "id": "IR:Şiraz",
+  "lang": "fa"
+ },
+ {
+  "id": "IR:Tebriz",
+  "lang": "fa"
+ },
+ {
+  "id": "AF:Kabil",
+  "lang": "fa"
+ },
+ {
+  "id": "AF:Herat",
+  "lang": "fa"
+ },
+ {
+  "id": "RU:Moskova",
+  "lang": "ru"
+ },
+ {
+  "id": "RU:Kazan",
+  "lang": "ru"
+ },
+ {
+  "id": "RU:Mahaçkale",
+  "lang": "ru"
+ },
+ {
+  "id": "RU:Grozni",
+  "lang": "ru"
+ },
+ {
+  "id": "RU:Ufa",
+  "lang": "ru"
+ },
+ {
+  "id": "UZ:Taşkent",
+  "lang": "ru"
+ },
+ {
+  "id": "UZ:Semerkant",
+  "lang": "ru"
+ },
+ {
+  "id": "KZ:Almatı",
+  "lang": "ru"
+ },
+ {
+  "id": "KZ:Astana",
+  "lang": "ru"
+ },
+ {
+  "id": "KG:Bişkek",
+  "lang": "ru"
+ },
+ {
+  "id": "TJ:Duşanbe",
+  "lang": "ru"
+ },
+ {
+  "id": "AZ:Bakü",
+  "lang": "ru"
+ },
+ {
+  "id": "FR:Paris",
+  "lang": "fr"
+ },
+ {
+  "id": "FR:Marsilya",
+  "lang": "fr"
+ },
+ {
+  "id": "FR:Lyon",
+  "lang": "fr"
+ },
+ {
+  "id": "BE:Brüksel",
+  "lang": "fr"
+ },
+ {
+  "id": "SN:Dakar",
+  "lang": "fr"
+ },
+ {
+  "id": "SN:Touba",
+  "lang": "fr"
+ },
+ {
+  "id": "CI:Abidjan",
+  "lang": "fr"
+ },
+ {
+  "id": "ML:Bamako",
+  "lang": "fr"
+ },
+ {
+  "id": "GN:Konakri",
+  "lang": "fr"
+ },
+ {
+  "id": "NE:Niamey",
+  "lang": "fr"
+ },
+ {
+  "id": "BF:Ouagadougou",
+  "lang": "fr"
+ },
+ {
+  "id": "TZ:Darüsselam",
+  "lang": "sw"
+ },
+ {
+  "id": "TZ:Zanzibar",
+  "lang": "sw"
+ },
+ {
+  "id": "KE:Mombasa",
+  "lang": "sw"
+ },
+ {
+  "id": "KE:Nairobi",
+  "lang": "sw"
+ },
+ {
+  "id": "GB:Londra",
+  "lang": "en"
+ },
+ {
+  "id": "GB:Birmingham",
+  "lang": "en"
+ },
+ {
+  "id": "GB:Manchester",
+  "lang": "en"
+ },
+ {
+  "id": "GB:Bradford",
+  "lang": "en"
+ },
+ {
+  "id": "US:New York",
+  "lang": "en"
+ },
+ {
+  "id": "US:Chicago",
+  "lang": "en"
+ },
+ {
+  "id": "US:Houston",
+  "lang": "en"
+ },
+ {
+  "id": "CA:Toronto",
+  "lang": "en"
+ },
+ {
+  "id": "AU:Sidney",
+  "lang": "en"
+ },
+ {
+  "id": "AU:Melbourne",
+  "lang": "en"
+ },
+ {
+  "id": "NG:Lagos",
+  "lang": "en"
+ },
+ {
+  "id": "NG:Kano",
+  "lang": "en"
+ },
+ {
+  "id": "NG:Abuja",
+  "lang": "en"
+ },
+ {
+  "id": "IN:Yeni Delhi",
+  "lang": "en"
+ },
+ {
+  "id": "IN:Mumbai",
+  "lang": "en"
+ },
+ {
+  "id": "IN:Haydarabad",
+  "lang": "en"
+ },
+ {
+  "id": "ZA:Johannesburg",
+  "lang": "en"
+ },
+ {
+  "id": "ZA:Cape Town",
+  "lang": "en"
+ }
+]
