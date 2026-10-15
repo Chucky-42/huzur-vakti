@@ -32,7 +32,7 @@ PRIVACY = 'https://chucky-42.github.io/huzur-vakti-gizlilik/'
 SUPPORT = 'https://chucky-42.github.io/huzur-vakti-gizlilik/destek.html'
 KAABA = (21.4225, 39.8262)
 
-LANGS = ['tr', 'en', 'ar', 'fa', 'ur', 'bn', 'fr', 'id', 'ms', 'ru', 'sw']
+LANGS = ['tr', 'en', 'ar', 'fa', 'ur', 'bn', 'fr', 'id', 'ms', 'ru', 'sw', 'de', 'az', 'uz', 'bs']
 RTL = {'ar', 'fa', 'ur'}
 # Same digits as the app shows on a phone in that language (locale_digits.dart).
 ZERO = {'ar': 0x660, 'fa': 0x6F0, 'bn': 0x9E6}
@@ -284,6 +284,142 @@ T = {
         'index_desc': "Nyakati za sala za kila siku na za mwezi kwa miji ya duniani kote. Adhana, dira ya kibla na Qur'ani katika programu ya bure ya Huzur Vakti.",
         'cities': 'Miji', 'languages': 'Lugha nyingine', 'privacy': 'Sera ya faragha', 'support': 'Msaada',
     },
+    'de': {
+        'name': 'Deutsch',
+        'title': 'Gebetszeiten {city} heute – {p[0]}, {p[2]}, {p[3]}, {p[4]}, {p[5]}',
+        'h1': 'Gebetszeiten in {city}',
+        'desc': 'Gebetszeiten für {city} heute und für den ganzen Monat: Fadschr, Schuruq, Dhuhr, Asr, Maghrib und Ischa, mit Qibla-Richtung. Adhan-Erinnerung mit der kostenlosen, werbefreien App Huzur Vakti.',
+        'next': 'Nächstes Gebet',
+        'day': 'Tag',
+        'month_title': 'Gebetszeiten {month} {year}',
+        'months': ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        'facts': 'So werden diese Zeiten berechnet',
+        'method': 'Berechnungsmethode',
+        'asr': 'Asr',
+        'asr_shafi': 'Standard: Schatten so lang wie der Gegenstand',
+        'asr_hanafi': 'Hanafitisch: Schatten doppelt so lang',
+        'qibla': 'Qibla-Richtung',
+        'qibla_value': '{deg}° im Uhrzeigersinn ab geografisch Nord',
+        'distance': 'Entfernung zur Kaaba',
+        'km': 'km',
+        'zone': 'Zeitzone',
+        'cta_title': 'Kein Gebet mehr verpassen',
+        'cta_text': None,
+        'free': 'Kostenlos · Ohne Werbung · Ohne Konto',
+        'play': 'Bei Google Play herunterladen',
+        'appstore': 'Im App Store laden',
+        'more': 'Weitere Städte',
+        'note': 'Diese Zeiten stammen aus der eigenen Berechnung der App Huzur Vakti ({method}) und stimmen mit der App überein. Offizielle Kalender können um ein bis zwei Minuten abweichen.',
+        'index_title': 'Gebetszeiten – Huzur Vakti',
+        'index_h1': 'Gebetszeiten',
+        'index_desc': "Tägliche und monatliche Gebetszeiten für Städte in Deutschland und weltweit. Adhan-Erinnerung, Qibla-Kompass und Qur'an in der kostenlosen App Huzur Vakti.",
+        'cities': 'Städte',
+        'languages': 'Andere Sprachen',
+        'privacy': 'Datenschutz',
+        'support': 'Hilfe',
+    },
+    'az': {
+        'name': 'Azərbaycanca',
+        'title': '{city} namaz vaxtları bu gün – {p[0]}, {p[2]}, {p[3]}, {p[4]}, {p[5]}',
+        'h1': '{city} namaz vaxtları',
+        'desc': '{city} üçün bugünkü və aylıq namaz vaxtları: sübh, günəş, zöhr, əsr, məğrib və işa, qiblə istiqaməti ilə. Pulsuz və reklamsız Huzur Vakti tətbiqi ilə azan bildirişi.',
+        'next': 'Növbəti namaz',
+        'day': 'Gün',
+        'month_title': '{month} {year} namaz vaxtları',
+        'months': ['Yanvar', 'Fevral', 'Mart', 'Aprel', 'May', 'İyun', 'İyul', 'Avqust', 'Sentyabr', 'Oktyabr', 'Noyabr', 'Dekabr'],
+        'facts': 'Bu vaxtlar necə hesablanır',
+        'method': 'Hesablama üsulu',
+        'asr': 'Əsr',
+        'asr_shafi': 'Standart: kölgə əşya boyda',
+        'asr_hanafi': 'Hənəfi: kölgə əşyanın iki misli',
+        'qibla': 'Qiblə istiqaməti',
+        'qibla_value': 'Coğrafi şimaldan saat əqrəbi istiqamətində {deg}°',
+        'distance': 'Kəbəyə məsafə',
+        'km': 'km',
+        'zone': 'Saat qurşağı',
+        'cta_title': 'Namaz vaxtını qaçırmayın',
+        'cta_text': None,
+        'free': 'Pulsuz · Reklamsız · Hesabsız',
+        'play': 'Google Play-dən yükləyin',
+        'appstore': 'App Store-dan yükləyin',
+        'more': 'Digər şəhərlər',
+        'note': 'Bu vaxtlar Huzur Vakti tətbiqinin öz hesablamasıdır ({method}) və tətbiqdə gördüyünüzlə eynidir. Rəsmi təqvimlərlə bir-iki dəqiqə fərq ola bilər.',
+        'index_title': 'Namaz vaxtları – Huzur Vakti',
+        'index_h1': 'Namaz vaxtları',
+        'index_desc': 'Azərbaycan və dünya şəhərləri üçün gündəlik və aylıq namaz vaxtları. Pulsuz Huzur Vakti tətbiqində azan bildirişi, qiblə kompası və Quran.',
+        'cities': 'Şəhərlər',
+        'languages': 'Digər dillər',
+        'privacy': 'Məxfilik siyasəti',
+        'support': 'Dəstək',
+    },
+    'uz': {
+        'name': 'Oʻzbekcha',
+        'title': '{city} namoz vaqtlari bugun – {p[0]}, {p[2]}, {p[3]}, {p[4]}, {p[5]}',
+        'h1': '{city} namoz vaqtlari',
+        'desc': '{city} uchun bugungi va oylik namoz vaqtlari: bomdod, quyosh, peshin, asr, shom va xufton, qibla yoʻnalishi bilan. Bepul va reklamasiz Huzur Vakti ilovasida azon eslatmasi.',
+        'next': 'Keyingi namoz',
+        'day': 'Kun',
+        'month_title': '{year}-yil {month} namoz vaqtlari',
+        'months': ['Yanvar', 'Fevral', 'Mart', 'Aprel', 'May', 'Iyun', 'Iyul', 'Avgust', 'Sentabr', 'Oktabr', 'Noyabr', 'Dekabr'],
+        'facts': 'Bu vaqtlar qanday hisoblanadi',
+        'method': 'Hisoblash usuli',
+        'asr': 'Asr',
+        'asr_shafi': 'Standart: soya buyum boʻyi',
+        'asr_hanafi': 'Hanafiy: soya buyumdan ikki baravar',
+        'qibla': 'Qibla yoʻnalishi',
+        'qibla_value': 'Geografik shimoldan soat mili boʻyicha {deg}°',
+        'distance': 'Kaʼbagacha masofa',
+        'km': 'km',
+        'zone': 'Vaqt mintaqasi',
+        'cta_title': 'Namoz vaqtini oʻtkazib yubormang',
+        'cta_text': None,
+        'free': 'Bepul · Reklamasiz · Hisobsiz',
+        'play': 'Google Playʼdan yuklab oling',
+        'appstore': 'App Storeʼdan yuklab oling',
+        'more': 'Boshqa shaharlar',
+        'note': 'Bu vaqtlar Huzur Vakti ilovasining oʻz hisobidir ({method}) va ilovada koʻrganingiz bilan bir xil. Rasmiy taqvimlar bilan bir-ikki daqiqa farq boʻlishi mumkin.',
+        'index_title': 'Namoz vaqtlari – Huzur Vakti',
+        'index_h1': 'Namoz vaqtlari',
+        'index_desc': 'Oʻzbekiston va dunyo shaharlari uchun kunlik va oylik namoz vaqtlari. Bepul Huzur Vakti ilovasida azon eslatmasi, qibla kompasi va Qurʼon.',
+        'cities': 'Shaharlar',
+        'languages': 'Boshqa tillar',
+        'privacy': 'Maxfiylik siyosati',
+        'support': 'Yordam',
+    },
+    'bs': {
+        'name': 'Bosanski',
+        'title': 'Vaktija {city} danas – {p[0]}, {p[2]}, {p[3]}, {p[4]}, {p[5]}',
+        'h1': 'Vaktija za {city}',
+        'desc': 'Današnja i mjesečna namaska vremena za {city}: zora, izlazak sunca, podne, ikindija, akšam i jacija, s pravcem kible. Ezan na vrijeme uz besplatnu aplikaciju Huzur Vakti bez reklama.',
+        'next': 'Sljedeći namaz',
+        'day': 'Dan',
+        'month_title': 'Vaktija za {month} {year}.',
+        'months': ['januar', 'februar', 'mart', 'april', 'maj', 'juni', 'juli', 'august', 'septembar', 'oktobar', 'novembar', 'decembar'],
+        'facts': 'Kako se računaju ova vremena',
+        'method': 'Metoda izračuna',
+        'asr': 'Ikindija',
+        'asr_shafi': 'Standardno: sjena jednaka predmetu',
+        'asr_hanafi': 'Hanefijski: sjena dvostruka od predmeta',
+        'qibla': 'Pravac kible',
+        'qibla_value': '{deg}° u smjeru kazaljke od geografskog sjevera',
+        'distance': 'Udaljenost do Kabe',
+        'km': 'km',
+        'zone': 'Vremenska zona',
+        'cta_title': 'Ne propustite vakat',
+        'cta_text': None,
+        'free': 'Besplatno · Bez reklama · Bez računa',
+        'play': 'Preuzmite na Google Playu',
+        'appstore': 'Preuzmite na App Storeu',
+        'more': 'Ostali gradovi',
+        'note': 'Ova vremena su vlastiti izračun aplikacije Huzur Vakti ({method}) i ista su kao u aplikaciji. Zvanične vaktije mogu odstupati minutu-dvije.',
+        'index_title': 'Vaktija – Huzur Vakti',
+        'index_h1': 'Vaktija',
+        'index_desc': "Dnevna i mjesečna namaska vremena za gradove u Bosni i Hercegovini i svijetu. Ezan, kompas za kiblu i Kur'an u besplatnoj aplikaciji Huzur Vakti.",
+        'cities': 'Gradovi',
+        'languages': 'Drugi jezici',
+        'privacy': 'Politika privatnosti',
+        'support': 'Podrška',
+    },
 }
 
 
@@ -344,6 +480,46 @@ R = {
            'intro': 'Kwa kalenda ya Umm al-Qura, Ramadhani inaanza {start} na Idi el-Fitri ni {eid}. Katika baadhi ya nchi inaweza kuanza siku moja baadaye; hapo mfungo huendelea siku moja zaidi ya mwisho wa jedwali hili.',
            'cols': ['Siku', 'Tarehe', 'Imsaki', 'Futari', 'Muda'], 'link': 'Ratiba ya Ramadhani {year}', 'list': 'Ratiba za Ramadhani {year}',
            'cta_title': 'Kikumbusho cha daku na futari'},
+    'de': {
+        'title': 'Ramadan {year} in {city} – Sahur- und Iftar-Zeiten',
+        'h1': 'Ramadan-Kalender {year} für {city}',
+        'desc': 'Ramadan-Kalender {year} für {city}: für jeden Tag das Ende des Sahur (Imsak) und die Iftar-Zeit, berechnet von der App Huzur Vakti, die Sie zu jeder Zeit erinnert.',
+        'intro': 'Nach dem Umm-al-Qura-Kalender beginnt der Ramadan am {start}, das Ramadanfest ist am {eid}. In manchen Ländern beginnt er einen Tag später; dann dauert das Fasten einen Tag über das Ende dieser Tabelle hinaus.',
+        'cols': ['Tag', 'Datum', 'Sahur-Ende', 'Iftar', 'Dauer'],
+        'link': 'Ramadan-Kalender {year}',
+        'list': 'Ramadan-Kalender {year}',
+        'cta_title': 'Erinnerung zu Sahur und Iftar',
+    },
+    'az': {
+        'title': '{city} Ramazan təqvimi {year} – imsak və iftar vaxtları',
+        'h1': '{city} Ramazan təqvimi {year}',
+        'desc': '{city} üçün {year} Ramazan təqvimi: hər gün imsak (sahurun sonu) və iftar vaxtı. Vaxtlar Huzur Vakti tətbiqinin hesablamasıdır; tətbiq hər vaxtda xəbər verir.',
+        'intro': 'Ümmülqura təqviminə görə Ramazan {start} tarixində başlayır, Ramazan bayramı {eid} tarixindədir. Bəzi ölkələrdə bir gün gec başlaya bilər; o zaman oruc bu cədvəlin sonundan bir gün çox davam edir.',
+        'cols': ['Gün', 'Tarix', 'İmsak', 'İftar', 'Müddət'],
+        'link': 'Ramazan {year} təqvimi',
+        'list': 'Ramazan {year} təqvimləri',
+        'cta_title': 'İmsak və iftar vaxtında xəbər alın',
+    },
+    'uz': {
+        'title': '{city} Ramazon taqvimi {year} – saharlik va iftorlik vaqtlari',
+        'h1': '{city} Ramazon taqvimi {year}',
+        'desc': '{city} uchun {year} Ramazon taqvimi: har kuni saharlik tugashi (imsok) va iftorlik vaqti. Vaqtlar Huzur Vakti ilovasining hisobi; ilova har vaqtda eslatadi.',
+        'intro': 'Ummul-Quro taqvimiga koʻra Ramazon {start} kuni boshlanadi, Ramazon hayiti {eid} kuni. Baʼzi mamlakatlarda bir kun kech boshlanishi mumkin; unda roʻza bu jadval oxiridan bir kun koʻproq davom etadi.',
+        'cols': ['Kun', 'Sana', 'Saharlik', 'Iftorlik', 'Davomiyligi'],
+        'link': 'Ramazon {year} taqvimi',
+        'list': 'Ramazon {year} taqvimlari',
+        'cta_title': 'Saharlik va iftorlikda eslatma oling',
+    },
+    'bs': {
+        'title': 'Ramazanska vaktija {year} – {city}: sehur i iftar',
+        'h1': 'Ramazanska vaktija {year} za {city}',
+        'desc': 'Ramazanska vaktija {year} za {city}: za svaki dan kraj sehura (imsak) i vrijeme iftara, prema izračunu aplikacije Huzur Vakti, koja vas podsjeti na svako vrijeme.',
+        'intro': 'Prema kalendaru Umm al-Qura ramazan počinje {start}, a Ramazanski bajram je {eid}. U nekim zemljama može početi dan kasnije; tada post traje dan duže od kraja ove tabele.',
+        'cols': ['Dan', 'Datum', 'Imsak', 'Iftar', 'Trajanje'],
+        'link': 'Ramazanska vaktija {year}',
+        'list': 'Ramazanske vaktije {year}',
+        'cta_title': 'Podsjetnik za sehur i iftar',
+    },
 }
 
 
@@ -518,7 +694,13 @@ def city_page(c, by_lang, strings, start, today):
         f'<p class="note">{esc(t["note"].format(method=c["methodTitles"][lang]))}</p>',
     ]
     if others:
-        body.append(f'<h2>{esc(t["more"])}</h2>{city_list(by_lang[lang], lang, rel, skip=c)}')
+        # With GeoNames' towns a language holds hundreds of cities; listing all
+        # of them under every page was 350 links of noise. The same country's
+        # nearest 30, and the language index for the rest.
+        near = sorted((o for o in by_lang[lang] if o['country'] == c['country'] and o is not c),
+                      key=lambda o: (o['lat'] - c['lat']) ** 2 + (o['lon'] - c['lon']) ** 2)[:30]
+        body.append(f'<h2>{esc(t["more"])}</h2>{city_list(near, lang, rel)}'
+                    f'<p><a href="{rel}{lang}/">{esc(t["index_h1"])} – {esc(t["cities"])}</a></p>')
     body += [
         '</div></main>', foot(lang),
         '<script id="pt" type="application/json">' + json.dumps(data, ensure_ascii=False) + '</script>',
@@ -701,7 +883,11 @@ def main():
         c['slug'] = slugify(c['names']['en'])
         key = (c['lang'], c['slug'])
         if key in seen:
-            raise SystemExit(f'duplicate slug {key}')
+            # The app's own cities come first in cities.json; a GeoNames town
+            # that lands on the same slug (a district of Algiers named
+            # "Algiers") is the duplicate and is left out.
+            print(f'aynı adres atlandı: {key} ({c["id"]})')
+            continue
         seen.add(key)
         by_lang[c['lang']].append(c)
 
