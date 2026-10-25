@@ -901,6 +901,9 @@ def main():
     # ownership file (deleting it un-verifies the property).
     for f in (ROOT / 'root').iterdir():
         shutil.copy2(f, OUT / f.name)
+    # Hand-written pages (e.g. /indir/: one link that opens Play on Android, App Store on iPhone).
+    if (ROOT / 'pages').exists():
+        shutil.copytree(ROOT / 'pages', OUT, dirs_exist_ok=True)
 
     urls = [BASE]
     (OUT / 'index.html').write_text(root_page(by_lang, strings, langs), encoding='utf-8')

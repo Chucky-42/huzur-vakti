@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Huzur Vakti – İndir</title>
+<script>
+// Cihaza göre doğru mağazaya yönlendir. ?k=youtube gibi bir kaynak verilirse Play'e referrer olarak geçer.
+(function () {
+  var ua = navigator.userAgent || "", k = (new URLSearchParams(location.search).get("k") || "web").replace(/[^a-z0-9_-]/gi, "");
+  var play = "https://play.google.com/store/apps/details?id=com.lutfu.huzurvakti&referrer=" + encodeURIComponent("utm_source=" + k + "&utm_medium=akilli_link");
+  var ios = "https://apps.apple.com/app/id6818989611";
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && "ontouchend" in document);
+  if (/Android/i.test(ua)) location.replace(play);
+  else if (isIOS) location.replace(ios);
+  else window.__links = {play: play, ios: ios};
+})();
+</script>
+<style>
+:root{--bg:#0c2b29;--card:#123a37;--ink:#f3ead6;--gold:#d9b061}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;padding:16px;box-sizing:border-box}
+main{max-width:420px;width:100%;text-align:center;background:var(--card);border:1px solid rgba(217,176,97,.35);border-radius:20px;padding:32px 24px}
+h1{margin:0 0 6px;font-size:26px;color:var(--gold)}
+p{margin:0 0 22px;opacity:.85}
+a{display:block;margin:10px 0;padding:14px;border-radius:12px;background:var(--gold);color:#132;font-weight:700;text-decoration:none}
+a.alt{background:transparent;color:var(--ink);border:1px solid var(--gold)}
+</style>
+</head>
+<body>
+<main>
+<h1>Huzur Vakti</h1>
+<p>Reklamsız namaz vakitleri, ezan, kıble ve Kur'an</p>
+<a id="play" href="https://play.google.com/store/apps/details?id=com.lutfu.huzurvakti">Google Play (Android)</a>
+<a id="ios" class="alt" href="https://apps.apple.com/app/id6818989611">App Store (iPhone)</a>
+</main>
+<script>if(window.__links){document.getElementById("play").href=__links.play}</script>
+</body>
+</html>
