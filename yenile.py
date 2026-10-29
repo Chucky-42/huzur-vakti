@@ -17,6 +17,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 LOG = ROOT / 'yenile.log'
+# build.py docs/'u silip baştan yazarken saatlik "günün videosu" görevi (tanitim/shorts/gunun_videosu.py)
+# siteye dokunmasın: bu dosya varken o saati atlar.
+LOCK = ROOT / '.yenile.lock'
 
 
 def log(msg):
@@ -63,8 +66,11 @@ def main():
 
 
 if __name__ == '__main__':
+    LOCK.write_text(str(os.getpid()), encoding='utf-8')
     try:
         sys.exit(main())
     except Exception:
         log('HATA: ' + ' | '.join(traceback.format_exc().splitlines()))
         sys.exit(1)
+    finally:
+        LOCK.unlink(missing_ok=True)
