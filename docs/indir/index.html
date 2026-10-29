@@ -6,13 +6,16 @@
 <meta name="robots" content="noindex">
 <title>Huzur Vakti – İndir</title>
 <script>
-// Cihaza göre doğru mağazaya yönlendir. ?k=youtube gibi bir kaynak verilirse Play'e referrer olarak geçer.
+// Cihaza göre doğru mağazaya yönlendir: Huawei → AppGallery (çoğunda Google Play yok), diğer Android → Play,
+// iPhone → App Store. ?k=youtube gibi bir kaynak verilirse Play'e referrer olarak geçer.
 (function () {
   var ua = navigator.userAgent || "", k = (new URLSearchParams(location.search).get("k") || "web").replace(/[^a-z0-9_-]/gi, "");
   var play = "https://play.google.com/store/apps/details?id=com.lutfu.huzurvakti&referrer=" + encodeURIComponent("utm_source=" + k + "&utm_medium=akilli_link");
   var ios = "https://apps.apple.com/app/id6818989611";
+  var hw = "https://appgallery.huawei.com/app/C119437405";
   var isIOS = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && "ontouchend" in document);
-  if (/Android/i.test(ua)) location.replace(play);
+  if (/HUAWEI|HuaweiBrowser|HMSCore|HarmonyOS|OpenHarmony/i.test(ua)) location.replace(hw);
+  else if (/Android/i.test(ua)) location.replace(play);
   else if (isIOS) location.replace(ios);
   else window.__links = {play: play, ios: ios};
 })();
@@ -33,6 +36,7 @@ a.alt{background:transparent;color:var(--ink);border:1px solid var(--gold)}
 <p>Reklamsız namaz vakitleri, ezan, kıble ve Kur'an</p>
 <a id="play" href="https://play.google.com/store/apps/details?id=com.lutfu.huzurvakti">Google Play (Android)</a>
 <a id="ios" class="alt" href="https://apps.apple.com/app/id6818989611">App Store (iPhone)</a>
+<a id="hw" class="alt" href="https://appgallery.huawei.com/app/C119437405">AppGallery (Huawei)</a>
 </main>
 <script>if(window.__links){document.getElementById("play").href=__links.play}</script>
 </body>

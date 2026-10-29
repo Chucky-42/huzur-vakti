@@ -901,7 +901,7 @@ def main():
     # ownership file (deleting it un-verifies the property).
     for f in (ROOT / 'root').iterdir():
         shutil.copy2(f, OUT / f.name)
-    # Hand-written pages (e.g. /indir/: one link that opens Play on Android, App Store on iPhone).
+    # Hand-written pages (e.g. /indir/: one link that opens AppGallery on Huawei, Play on other Android phones, App Store on iPhone).
     if (ROOT / 'pages').exists():
         shutil.copytree(ROOT / 'pages', OUT, dirs_exist_ok=True)
 
